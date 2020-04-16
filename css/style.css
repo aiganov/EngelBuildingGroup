@@ -922,6 +922,7 @@ aside {
 /* ========== MOBILE ========== */
 @media (max-width: 767px) {
   .contacts-wrapper {
+    width: 100%;
     flex-direction: column;
     text-align: center;
   }
