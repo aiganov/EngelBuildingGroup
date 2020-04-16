@@ -1,0 +1,115 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+	<head>
+		<meta charset = "utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<title>ЭнжилСтройГрупп - Ремонт</title>
+    	<link href="css/normalize.css" rel="stylesheet">	
+    	<link href="css/style.css" rel="stylesheet">
+    	<link href="slick/slick.css" rel="stylesheet" type="text/css"/>	
+	</head>
+	<body>
+		<div class="container">
+			<header class="mobile-header">
+				<a href="/" class="mobile-logo">
+					<h1 class="mobile-logo-title">ЭнжилСтройГрупп</h1>
+					<p class="mobile-logo-desc">проектирование и строительство</p>
+				</a>
+				<a href="#" class="callback-mobile">
+					<span class="callback-icon"></span>
+				</a>				
+			</header>
+			<aside class="sidebar">
+				<a href="/" class="logo"><img src="img/logo-inner.jpg" alt="logo"></a>
+				<div class="sidebar-contacts">
+					<p class="tel">8 (495) 155-20-65</p>
+					<p class="time">ПН-ПТ с 10:00 до 19:00</p>
+				</div>
+				<input type="checkbox" name="mobile-burger" id="burger-checkbox" class="mobile-burger-checkbox">	
+				<label for="burger-checkbox" class="mobile-burger">
+					<span class="burger-icon"></span>
+				</label>							
+				<nav class="main-nav">
+					<ul class="main-menu">
+						<li><a href="index.html">О компании</a></li>
+						<li><a href="project.html">Проектирование</a></li>
+						<li><a href="#">Составление смет</a></li>
+						<li><a href="build.html">Строительство</a></li>
+						<li><a href="#">Дизайн</a></li>
+						<li><a href="repair.html">Ремонт квартир</a></li>
+						<li><a href="#">Умный дом</a></li>
+						<li class="active"><a href="portfolio.html">Наши работы</a></li>
+						<li><a href="contacts.html">Контакты</a></li>
+					</ul>
+				</nav>
+				<div class="sidebar-bottom">
+					<a href="#" class="login">Личный кабинет</a>
+					<p class="copyright">© 2020 ООО «ЭнжилСтройГрупп» <br> 
+						Все права защищены <br>
+						Сайт не является публичной офертой
+					</p>
+				</div>
+			</aside>	
+			<main class="main-content custom-scroll">
+				<h2 class="title">Наши работы</h2>					
+				<ul class="portfolio-filter">
+					<li><a href="#">Всё</a></li>
+					<li><a href="#">Ремонт квартир</a></li>
+					<li class="filter-current"><a href="#">Монолитные работы</a></li>
+					<li><a href="#">Фасад</a></li>
+					<li><a href="#">Клад кирпича</a></li>
+					<li><a href="#">Умный дом</a></li>
+					<li><a href="#">Проектирование</a></li>
+				</ul>														
+				<div class="portfolio">
+					<a href="portfolio-item.html" class="portfolio-item">
+						<img src="img/portfolio-image.jpg" class="portfolio-img" alt="portfolio">
+						<h3 class="porfolio-title">Novabell</h3>
+					</a>
+					<a href="portfolio-item.html" class="portfolio-item">
+						<img src="img/portfolio-image.jpg" class="portfolio-img" alt="portfolio">
+						<h3 class="porfolio-title">Novabell</h3>
+					</a>
+					<a href="portfolio-item.html" class="portfolio-item">
+						<img src="img/portfolio-image.jpg" class="portfolio-img" alt="portfolio">
+						<h3 class="porfolio-title">Novabell</h3>
+					</a>
+					<a href="portfolio-item.html" class="portfolio-item">
+						<img src="img/portfolio-image.jpg" class="portfolio-img" alt="portfolio">
+						<h3 class="porfolio-title">Novabell</h3>
+					</a>
+					<a href="portfolio-item.html" class="portfolio-item">
+						<img src="img/portfolio-image.jpg" class="portfolio-img" alt="portfolio">
+						<h3 class="porfolio-title">Novabell</h3>
+					</a>
+					<a href="portfolio-item.html" class="portfolio-item">
+						<img src="img/portfolio-image.jpg" class="portfolio-img" alt="portfolio">
+						<h3 class="porfolio-title">Novabell</h3>
+					</a>						
+				</div>
+			</main>
+		</div>
+		<a href="#" class="callback">Заказать обратный звонок</a>
+		<div class="callback-popup modal-content">
+			<div class="callback-wrapper">
+				<span class="modal-close">Закрыть</span>
+				<p class="callback-title">Закажите звонок</p>
+				<p class="callback-text">Мы свяжемся с вами <br> в течении 5 минут</p>
+				<form class="form">
+					<input type="tel" name="tel" placeholder="Номер телефона" required>
+					<input type="text" name="name" placeholder="Ваше имя" required>
+					<button type="button" class="btn">Жду звонка</button>
+				</form>
+				<p class="privacy">Отправляя заявку, вы даете согласие на 
+					<a href="https://angel-sg.ru/soglahenie_na_obrabotky_danyh/" target="_blank">обработку персональных данных</a>
+				</p>
+			</div>
+		</div>	
+		<div class="modal-overlay"></div>		
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="slick/slick.min.js"></script>
+		<script type="text/javascript" src="js/jquery.nicescroll.js"></script>		
+		<script type="text/javascript" src="js/popup.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+	</body>
+</html> 
